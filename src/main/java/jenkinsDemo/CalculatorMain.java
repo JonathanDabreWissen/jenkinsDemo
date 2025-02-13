@@ -6,6 +6,7 @@ class Calculator
 	int additionResult;
 	int subtractionResult;
 	int multiplicationResult;
+	int divisionResult;
 	
 	public void add(int a, int b)
 	{
@@ -21,6 +22,11 @@ class Calculator
 	{
 		multiplicationResult = a*b;
 		System.out.println("Multiply : "+(a * b));
+	}
+
+	public void divide(int a, int b){
+		divisionResult = a/b;
+		System.out.println("Division : " +(a/b));
 	}
 }
 public class CalculatorMain
