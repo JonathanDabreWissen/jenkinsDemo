@@ -39,4 +39,15 @@ class CalculatorMainTest {
 		System.out.println("Multiplication test ended");
 	}
 
+	@Test
+	void divisionTest(){
+		System.out.println("Division test started");
+		Calculator c4 = new Calculator();
+		c4.mul(20, 10);
+		
+		assertEquals(2, c4.divisionResult);
+		System.out.println("Division test ended");
+	
+	}
+
 }
