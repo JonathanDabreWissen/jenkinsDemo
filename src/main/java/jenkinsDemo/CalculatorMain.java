@@ -35,3 +35,16 @@ public class CalculatorMain
 		c1.mul(10, 20);
 	}
 }
+/*
+set PATH=C:\Users\Wissen\Documents\Maven\apache-maven-3.9.9\bin;%PATH%
+cd C:\Users\Wissen\Documents\workspace-spring-tool-suite-4-4.27.0.RELEASE\jenkinsDemo
+mvn compile
+
+
+cd C:\Users\Wissen\Documents\workspace-spring-tool-suite-4-4.27.0.RELEASE\jenkinsDemo
+java -cp target/classes jenkinsDemo.CalculatorMain
+
+set PATH=C:\Users\Wissen\Documents\Maven\apache-maven-3.9.9\bin;%PATH%
+cd C:\Users\Wissen\Documents\workspace-spring-tool-suite-4-4.27.0.RELEASE\jenkinsDemo
+mvn test
+ */
